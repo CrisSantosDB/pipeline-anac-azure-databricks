@@ -1,4 +1,4 @@
-# ✈️ Projeto de Análise de Ocorrências Aéreas com Azure + Databricks
+# ✈️ Transformando Dados de Ocorrências Aéreas em Insights Regionais com Databricks
 
 Transformei dados brutos da **ANAC** em uma base de dados analítica, limpa e confiável, utilizando **Azure Data Lake**, **Databricks** (com PySpark) e arquitetura de dados moderna com **Bronze, Silver e Gold**.
 
@@ -53,7 +53,19 @@ Importação direta do dataset `V_OCORRENCIA_AMPLA.json` da ANAC. Nenhuma transf
 - Eliminação de dados inválidos e inconsistentes.
 - Criação de uma métrica-chave: **Total de Lesões por Ocorrência**, facilitando a priorização de investigações.
 - **Organização por Estado** permite análises regionais imediatas.
-
+---
+# ⚙️ Pipeline no Azure Data Factory (ADF)
+Uma pipeline simples foi criada com o Azure Data Factory com o objetivo de praticar a orquestração de processos no ambiente Azure.
+Embora o processamento principal tenha sido feito diretamente no Databricks, a inclusão do ADF mostra a possibilidade de integração entre os serviços e reforça minha familiaridade com ferramentas de orquestração em nuvem.
+---
+## 🗂️ Estrutura do Repositório
+├── Anac/                           # Dados utilizados no projeto
+├── Notebooks - Desenvolvimento/   # Notebooks usados para testes e desenvolvimento inicial
+├── Notebooks - Produção/          # Versões finais dos notebooks utilizados em produção
+├── pipeline/                      # Pipeline criada com Azure Data Factory para orquestração de testes no fluxo de dados
+├── trigger/                       # Trigger de agendamento para a execução da pipeline
+├── README.md                      # Documentação do projeto
+├── publish_config.json           # Configurações de publicação do ADF
 
 
 
