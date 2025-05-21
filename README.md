@@ -8,9 +8,8 @@ Transformei dados brutos da **ANAC** em uma base de dados analítica, limpa e co
 
 ## Arquitetura da Solução
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/CrisSantosDB/pipeline-anac-azure-databricks/main/medalhao.jpg" width="800"/>
-</p>
+![Medalhão](https://raw.githubusercontent.com/CrisSantosDB/pipeline-anac-azure-databricks/main/medalhao.jpg)
+
 
 
 
