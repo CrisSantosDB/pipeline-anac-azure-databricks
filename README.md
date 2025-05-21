@@ -6,7 +6,10 @@ Transformei dados brutos da **ANAC** em uma base de dados analítica, limpa e co
 
 ## Arquitetura da Solução
 
-![Arquitetura](https://raw.githubusercontent.com/CrisSantosDB/pipeline-anac-azure-databricks/main/arquitetura-metalhao.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CrisSantosDB/pipeline-anac-azure-databricks/main/arquitetura%20metalhao.png" width="800"/>
+</p>
+
 
 
 
