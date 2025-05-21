@@ -56,17 +56,29 @@ Importação direta do dataset `V_OCORRENCIA_AMPLA.json` da ANAC. Nenhuma transf
 ---
 ## ⚙️ Pipeline no Azure Data Factory (ADF)
 
-Uma pipeline simples foi criada com o Azure Data Factory com o objetivo de praticar a orquestração de processos no ambiente Azure.
-Embora o processamento principal tenha sido feito diretamente no Databricks, a inclusão do ADF mostra a possibilidade de integração entre os serviços e reforça minha familiaridade com ferramentas de orquestração em nuvem.
+- Uma pipeline simples foi criada com o Azure Data Factory com o objetivo de praticar a orquestração de processos no ambiente Azure.
+- Embora o processamento principal tenha sido feito diretamente no Databricks, a inclusão do ADF mostra a possibilidade de integração entre os serviços e reforça minha familiaridade com ferramentas de orquestração em nuvem.
 ---
 ## 🗂️ Estrutura do Repositório
 
 ├── Anac/                           # Dados utilizados no projeto
+
+
 ├── Notebooks - Desenvolvimento/   # Notebooks usados para testes e desenvolvimento inicial
+
+
 ├── Notebooks - Produção/          # Versões finais dos notebooks utilizados em produção
+
+
 ├── pipeline/                      # Pipeline criada com Azure Data Factory para orquestração de testes no fluxo de dados
+
+
 ├── trigger/                       # Trigger de agendamento para a execução da pipeline
+
+
 ├── README.md                      # Documentação do projeto
+
+
 ├── publish_config.json           # Configurações de publicação do ADF
 
 
