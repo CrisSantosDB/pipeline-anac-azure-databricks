@@ -2,7 +2,10 @@
 
 Transformei dados brutos da **ANAC** em uma base de dados analítica, limpa e confiável, utilizando **Azure Data Lake**, **Databricks** (com PySpark) e arquitetura de dados moderna com **Bronze, Silver e Gold**.
 
-https://raw.githubusercontent.com/CrisSantosDB/pipeline-anac-azure-databricks/main/arquiterura%20metalhao.png
+## Arquitetura da Solução
+
+![Arquitetura](https://raw.githubusercontent.com/CrisSantosDB/pipeline-anac-azure-databricks/main/arquiterura%20metalhao.png)
+
 
 
 ---
